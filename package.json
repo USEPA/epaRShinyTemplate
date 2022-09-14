@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "dependencies": {
+    "@trussworks/react-uswds": "^2.9.0",
+    "@us-epa-camd/easey-design-system": "^1.27.0",
+    "glob-parent": "^5.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "uswds": "^2.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^5.0.1",
+    "glob-parent": "^5.1.2",
+    "sass": "^1.54.4",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "val-loader": "^5.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack"
+  }
+}
