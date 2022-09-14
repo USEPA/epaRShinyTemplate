@@ -10,7 +10,8 @@ The goal of epaRShinyTemplate is to supply users the EPA banner from the Easey D
 You can install the development version of epaRShinyTemplate from [GitHub](https://github.com/USEPA/epaRShinyTemplate)
 
 ``` r
-# install.packages("devtools")
+install.packages('/path/epaRShinyTemplate_0.0.1.tar.gz', repos=NULL)
+# or
 devtools::install_github("USEPA/epaRShinyTemplate")
 ```
 
