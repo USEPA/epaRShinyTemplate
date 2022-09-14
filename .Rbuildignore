@@ -1,0 +1,11 @@
+^EPAheaderwidget\.Rproj$
+^\.Rproj\.user$
+^node_modules$
+^srcjs$
+^app\.R$
+^\.npmrc$
+^package\.json$
+^package-lock\.json$
+^webpack\.config\.js$
+^yarn\.lock$
+^LICENSE\.md$
