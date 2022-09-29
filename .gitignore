@@ -2,5 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+epaRShinyTemplate.Rproj
 yarn-error.log
 node_modules/
