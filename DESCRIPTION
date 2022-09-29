@@ -2,7 +2,7 @@ Package: epaRShinyTemplate
 Title: EPA R Shiny Template
 Version: 0.0.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Karina", "Stetsyuk", , "stetsyuk.karina@epa.gov", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: This package makes the availability of the Easey Design System's EPA banner and footer for R Shiny Apps. Also makes uswds styling available.
 License: MIT + file LICENSE
