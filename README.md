@@ -3,7 +3,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of epaRShinyTemplate is to supply users the EPA banner from the EASEY Design System.
+The goal of epaRShinyTemplate is to supply users the EPA banner from the [EASEY Design System](https://github.com/US-EPA-CAMD/easey-design-system).
 
 ## Installation
 
