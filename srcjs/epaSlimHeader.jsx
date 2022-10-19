@@ -1,5 +1,4 @@
 import { reactShinyInput } from 'reactR';
-import React, { useState, useEffect } from "react";
 import { Header } from "@us-epa-camd/easey-design-system";
 import '@trussworks/react-uswds/lib/index.css';
 import "./index.scss";
