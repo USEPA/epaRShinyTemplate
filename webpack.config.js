@@ -1,11 +1,11 @@
-var path = require('path');
+let path = require('path');
 
 module.exports = {
     entry: {
-      'epaSlimFooter': path.join(__dirname, 'srcjs', 'epaSlimFooter.jsx')
+      'epaSlimHeader': path.join(__dirname, 'srcjs', 'epaSlimHeader.jsx')
     },
     output: {
-        path: path.join(__dirname, 'inst/www/epaRShinyTemplate/epaSlimFooter'),
+        path: path.join(__dirname, 'inst/www/epaRShinyTemplate/epaSlimHeader'),
         filename: '[name].js'
     },
     module: {
@@ -23,8 +23,8 @@ module.exports = {
                 use: ['style-loader', 'css-loader', 'sass-loader']
             },
             {
-                test: /\.(jpg|jpeg|png|woff|woff2|eot|ttf|svg)$/,
-                use: 'url-loader'
+                test: /\.(jpg|jpeg|png|woff(2)?|ttf|eot|svg|ico)(\?v=\d+\.\d+\.\d+)?$/,
+                type: 'asset',
             }
         ]
     },
