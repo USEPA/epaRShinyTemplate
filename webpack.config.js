@@ -2,10 +2,10 @@ let path = require('path');
 
 module.exports = {
     entry: {
-      'epaSlimHeader': path.join(__dirname, 'srcjs', 'epaSlimHeader.jsx')
+      'epaComponents': path.join(__dirname, 'srcjs', 'epaComponents.jsx')
     },
     output: {
-        path: path.join(__dirname, 'inst/www/epaRShinyTemplate/epaSlimHeader'),
+        path: path.join(__dirname, 'inst/www/epaRShinyTemplate'),
         filename: '[name].js'
     },
     module: {
