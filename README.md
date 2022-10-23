@@ -28,38 +28,22 @@ Below are steps if you want to compile your own local tarball of the package.
 
 3) run `yarn run webpack`
 
-4) switch out the following in your webpack.config.js
+4) make sure [devtools](https://devtools.r-lib.org/) is installed. [usethis](https://usethis.r-lib.org/) may also be useful.
 
-```
-...
-    entry: {
-      'epaSlimHeader': path.join(__dirname, 'srcjs', 'epaSlimHeader.jsx')
-    },
-    output: {
-        path: path.join(__dirname, 'inst/www/epaRShinyTemplate/epaSlimHeader'),
-        filename: '[name].js'
-    },
-...
-```
-
-5) run `yarn run webpack` again
-
-6) make sure [devtools](https://devtools.r-lib.org/) is installed. [usethis](https://usethis.r-lib.org/) may also be useful.
-
-7) in the R Shiny counsole run
+5) in the R Shiny counsole run
 
 ``` r
 devtools::document()
 devtools::load_all()
 ```
 
-8) run and inspect `devtools::check()` for are any errors
+6) run and inspect `devtools::check()` for are any errors
 
-9) if there are no errors, run `devtools::build()`
+7) if there are no errors, run `devtools::build()`
 
-10) once the build is complete, you will find the tarball in the parent diectory of the project foler 
+8) once the build is complete, you will find the tarball in the parent diectory of the project foler 
 
-11) install from source
+9) install from source
 
 ``` r
 install.packages('/path/epaRShinyTemplate_0.0.1.tar.gz', repos=NULL)
