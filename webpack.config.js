@@ -2,7 +2,7 @@ let path = require('path');
 
 module.exports = {
     entry: {
-      'epaComponents': path.join(__dirname, 'srcjs', 'epaComponents.jsx')
+      'main': path.join(__dirname, 'srcjs', 'main.jsx')
     },
     output: {
         path: path.join(__dirname, 'inst/www/epaRShinyTemplate'),

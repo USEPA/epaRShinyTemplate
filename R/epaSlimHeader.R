@@ -16,9 +16,9 @@ epaSlimHeader <- function(inputId, appEnvironment = "dev") {
     htmltools::htmlDependency(
       name = "epaSlimHeader-input",
       version = "1.0.0",
-      src = "www/epaRShinyTemplate/epaSlimHeader",
+      src = "www/epaRShinyTemplate",
       package = "epaRShinyTemplate",
-      script = "epaSlimHeader.js"
+      script = "main.js"
     ),
     default = appEnvironment,
     configuration = list(),

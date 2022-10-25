@@ -17,9 +17,9 @@ epaSlimFooter <- function(inputId, appVersion = "v0.0.0", appPublished = "local"
     htmltools::htmlDependency(
       name = "epaSlimFooter-input",
       version = "1.0.0",
-      src = "www/epaRShinyTemplate/epaSlimFooter",
+      src = "www/epaRShinyTemplate",
       package = "epaRShinyTemplate",
-      script = "epaSlimFooter.js"
+      script = "main.js"
     ),
     default = 0,
     configuration = list(appVersion=appVersion,appPublished=appPublished),
