@@ -9,7 +9,9 @@ The goal of epaRShinyTemplate is to supply users the EPA banner from the [EASEY 
 
 To install this package from R Studio:
 
-`install_github("https://github.com/USEPA/epaRShinyTemplate" , auth_token = "personal_access_token")`
+``` r
+install_github("https://github.com/USEPA/epaRShinyTemplate" , auth_token = "personal_access_token")
+```
 
 For documentation to get a personal access token, go to [this github docs page](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on).
 
