@@ -53,7 +53,7 @@ install.packages('/path/epaRShinyTemplate_0.0.1.tar.gz', repos=NULL)
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example using the header and app version elements:
 
 ``` r
 library(epaRShinyTemplate)
