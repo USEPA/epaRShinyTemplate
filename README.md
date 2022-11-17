@@ -3,7 +3,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of epaRShinyTemplate is to supply users the EPA banner from the [EASEY Design System](https://github.com/US-EPA-CAMD/easey-design-system).
+**This is not the standard OMS template. You can find that template [here](https://github.com/USEPA/webcms/blob/main/utilities/r/OneEPA_template.R).**
+
+The goal of epaRShinyTemplate is to supply R Shiny users the EPA banner and version bar from the [EASEY Design System](https://github.com/US-EPA-CAMD/easey-design-system) which is an approved EPA template for the EASEY project.
 
 ## Installation
 
