@@ -1,4 +1,4 @@
-# epaRShinyTemplate
+# EASEY Design System R Shiny Template (r package: epaRShinyTemplate)
 
 <!-- badges: start -->
 <!-- badges: end -->
