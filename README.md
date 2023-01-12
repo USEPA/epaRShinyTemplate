@@ -1,9 +1,11 @@
-# epaRShinyTemplate
+# EASEY Design System R Shiny Template (r package: epaRShinyTemplate)
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of epaRShinyTemplate is to supply users the EPA banner from the [EASEY Design System](https://github.com/US-EPA-CAMD/easey-design-system).
+**This is not the standard OMS template. You can find that template [here](https://github.com/USEPA/webcms/blob/main/utilities/r/OneEPA_template.R).**
+
+The goal of epaRShinyTemplate is to supply R Shiny users the EPA banner and version bar from the [EASEY Design System](https://github.com/US-EPA-CAMD/easey-design-system) which is an approved EPA template for the EASEY project.
 
 ## Installation
 
@@ -53,7 +55,7 @@ install.packages('/path/epaRShinyTemplate_0.0.1.tar.gz', repos=NULL)
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example using the header and app version elements:
 
 ``` r
 library(epaRShinyTemplate)
