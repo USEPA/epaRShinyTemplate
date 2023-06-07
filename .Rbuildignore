@@ -11,3 +11,4 @@
 ^webpack\.config\.js$
 ^yarn\.lock$
 ^\.github$
+^codecov\.yml$
