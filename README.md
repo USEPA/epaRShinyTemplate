@@ -1,6 +1,7 @@
 # EASEY Design System R Shiny Template (r package: epaRShinyTemplate)
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/USEPA/epaRShinyTemplate/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/USEPA/epaRShinyTemplate/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 **This is not the standard OMS template. You can find that template [here](https://github.com/USEPA/webcms/blob/main/utilities/r/OneEPA_template.R).**
