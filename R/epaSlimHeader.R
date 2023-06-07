@@ -2,8 +2,8 @@
 #'
 #' Used in the UI functions of R Shiny apps
 #'
-#' @importFrom reactR createReactShinyInput
-#' @importFrom htmltools htmlDependency tags
+#' @import reactR
+#' @import htmltools
 #'
 #' @param inputId The id of the shiny object.
 #' @param appEnvironment The application environment. Supplying 'prod' will omit dev/testing banner.

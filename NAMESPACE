@@ -2,6 +2,5 @@
 
 export(epaSlimFooter)
 export(epaSlimHeader)
-importFrom(htmltools,htmlDependency)
-importFrom(htmltools,tags)
-importFrom(reactR,createReactShinyInput)
+import(htmltools)
+import(reactR)
