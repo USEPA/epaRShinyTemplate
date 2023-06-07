@@ -12,5 +12,5 @@ Imports:
     htmltools,
     htmlwidgets,
     reactR
-Suggests: 
+Suggests:
     covr
