@@ -35,7 +35,7 @@ module.exports = {
             },
             {
                 test: /\.(jpg|jpeg|png|woff(2)?|ttf|eot|svg|ico)(\?v=\d+\.\d+\.\d+)?$/,
-                use: ['url-loader'],
+                type: 'asset',
             }
         ]
     },
