@@ -28,7 +28,7 @@ Below are steps if you want to compile your own local tarball of the package.
 ```
 (Note: some of these steps will take a few minutes.)
 
-2) in your terminal run `yarn install` 
+2) in your terminal run `yarn install` (RESEARCH IF PACKAGES NEED TO BE UPDATED) 
 
 3) run `yarn run webpack`
 

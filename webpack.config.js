@@ -11,7 +11,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.jsx?$/,
+                test: [/\.js$/, /\.jsx$/],
                 loader: 'babel-loader',
                 options: {
                     presets: ['@babel/preset-env', '@babel/preset-react']
@@ -20,18 +20,31 @@ module.exports = {
             // For CSS so that import "path/style.css"; works
             {
                 test: /\.(css|s[ac]ss)$/i,
-                use: ['style-loader', 'css-loader', 'sass-loader']
+                use: ['style-loader', 'css-loader', 'sass-loader'],
+            },
+            {
+                test: /\.(s[ac]ss)$/i,
+                loader: 'sass-loader',
+                options: {
+                  sassOptions: {
+                    includePaths: [
+                      "./node_modules/@uswds/uswds/packages"
+                    ],
+                  },
+                },
             },
             {
                 test: /\.(jpg|jpeg|png|woff(2)?|ttf|eot|svg|ico)(\?v=\d+\.\d+\.\d+)?$/,
-                type: 'asset',
+                use: ['url-loader'],
             }
         ]
     },
     externals: {
         'react': 'window.React',
         'react-dom': 'window.ReactDOM',
-        'reactR': 'window.reactR'
+        'reactR': 'window.reactR',
+        'jquery': 'window.jQuery',
+        'shiny': 'window.Shiny'
     },
     stats: {
         colors: true
